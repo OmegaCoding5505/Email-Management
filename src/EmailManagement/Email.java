@@ -98,7 +98,7 @@ public class Email {
 
     public void getmailboxCapacity() {
         System.out.println("Current Mailbox Capacity is: "+mailboxCapacity+"mb");
-        System.out.print("Enter the updated Mailbox Capacity: ");
+        System.out.print("Enter the updated Mailbox Capacity (in mb): ");
     }
 
     public void setMailboxCapacity(int capacity) {
