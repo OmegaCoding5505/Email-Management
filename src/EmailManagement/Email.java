@@ -34,8 +34,13 @@ public class Email {
 
         int choice;
         do {
-            System.out.println("\nSelect from the following (Press 0 to exit): " +
-                    "\n   1)Set Mailbox Capacity \n   2)Set Alternate Email \n   3)Change Password \n   4)Show Info ");
+            System.out.println("""
+
+                    Select from the following (Press 0 to exit):\s
+                       1)Set Mailbox Capacity\s
+                       2)Set Alternate Email\s
+                       3)Change Password\s
+                       4)Show Info\s""");
             choice = scan.nextInt();
 
             switch (choice) {
